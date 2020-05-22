@@ -9,7 +9,8 @@
  */
 using System;
 using System.Collections.Generic;
-
+using Classes;
+using Regras;
 /// <summary>
 /// Mainspace do programa. Neste espaço, a classe principal(Program), é que irá chamar e executar todos os métodos.
 /// </summary>
@@ -26,17 +27,17 @@ namespace Classes
         {
             List<Caso> casos = new List<Caso>();
             Caso c = new Caso();
-
-            Caso.InserePessoa(casos, new Caso("Norte", 25, "Masculino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Sul", 25, "Feminino", "Nâo"));
-            Caso.InserePessoa(casos, new Caso("Sul", 25, "Feminino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Centro", 32, "Masculino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Centro", 8, "Masculino", "Não"));
-            Caso.InserePessoa(casos, new Caso("Sul", 16, "Feminino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Sul", 40, "Feminino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Norte", 55, "Feminino", "Sim"));
-            Caso.InserePessoa(casos, new Caso("Norte", 65, "Feminino", "Não"));
-            Caso.InserePessoa(casos, new Caso("Centro", 80, "Feminino", "Não"));
+            
+            Validar.InserePessoa(casos, new Caso("Norte", 25, "Masculino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Sul", 25, "Feminino", "Nâo"));
+            Validar.InserePessoa(casos, new Caso("Sul", 25, "Feminino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Centro", 32, "Masculino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Centro", 8, "Masculino", "Não"));
+            Validar.InserePessoa(casos, new Caso("Sul", 16, "Feminino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Sul", 40, "Feminino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Norte", 55, "Feminino", "Sim"));
+            Validar.InserePessoa(casos, new Caso("Norte", 65, "Feminino", "Não"));
+            Validar.InserePessoa(casos, new Caso("Centro", 80, "Feminino", "Não"));
 
             #region Lista de Casos
             Console.WriteLine("Lista de casos");
@@ -171,16 +172,16 @@ namespace Classes
             List<Recuperados> recuperados = new List<Recuperados>();
             Recuperados r = new Recuperados();
 
-            Recuperados.InserePessoa(recuperados, new Recuperados("Norte", 25, "Masculino", "Não"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Sul", 25, "Feminino", "Nâo"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Sul", 25, "Feminino", "Sim"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Centro", 32, "Masculino", "Sim"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Centro", 8, "Masculino", "Não"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Sul", 16, "Feminino", "Sim"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Sul", 40, "Feminino", "Não"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Norte", 55, "Feminino", "Sim"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Norte", 65, "Feminino", "Não"));
-            Recuperados.InserePessoa(recuperados, new Recuperados("Centro", 80, "Feminino", "Não"));
+            Validar.InserePessoa(recuperados, new Recuperados("Norte", 25, "Masculino", "Não"));
+            Validar.InserePessoa(recuperados, new Recuperados("Sul", 25, "Feminino", "Nâo"));
+            Validar.InserePessoa(recuperados, new Recuperados("Sul", 25, "Feminino", "Sim"));
+            Validar.InserePessoa(recuperados, new Recuperados("Centro", 32, "Masculino", "Sim"));
+            Validar.InserePessoa(recuperados, new Recuperados("Centro", 8, "Masculino", "Não"));
+            Validar.InserePessoa(recuperados, new Recuperados("Sul", 16, "Feminino", "Sim"));
+            Validar.InserePessoa(recuperados, new Recuperados("Sul", 40, "Feminino", "Não"));
+            Validar.InserePessoa(recuperados, new Recuperados("Norte", 55, "Feminino", "Sim"));
+            Validar.InserePessoa(recuperados, new Recuperados("Norte", 65, "Feminino", "Não"));
+            Validar.InserePessoa(recuperados, new Recuperados("Centro", 80, "Feminino", "Não"));
 
             #region Lista de Recuperados
             Console.WriteLine("Lista de Recuperados.");

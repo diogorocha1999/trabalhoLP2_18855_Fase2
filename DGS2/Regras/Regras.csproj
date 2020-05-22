@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AD56863-B46A-435D-B5B2-2E35F8E2BC26}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Dgs</RootNamespace>
-    <AssemblyName>Dgs</AssemblyName>
+    <ProjectGuid>{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regras</RootNamespace>
+    <AssemblyName>Regras</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DGS2\DgsValidacoes\Classes.csproj">
+    <ProjectReference Include="..\DgsValidacoes\Classes.csproj">
       <Project>{e2e69924-cefe-478b-ba42-a90541683bb7}</Project>
       <Name>Classes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DGS2\Regras\Regras.csproj">
-      <Project>{0efda9bf-ff45-4866-85f0-cc3533e6f740}</Project>
-      <Name>Regras</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

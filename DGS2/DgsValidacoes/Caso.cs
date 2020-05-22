@@ -308,40 +308,40 @@ namespace Classes
         }
 
 
-        /// <summary>
-        /// Insere uma nova pessoa caso não exista
-        /// </summary>
-        /// <param name="casos"></param>
-        /// <param name="pessoa"></param>
-        /// <returns></returns>
-        public static bool InserePessoa(List<Caso> casos, Caso pessoa)
-        {
-            bool auxVerificaExistePessoa = VerificaExistePessoa(casos, pessoa);
-            if (auxVerificaExistePessoa == false)
-            {
-                casos.Add(pessoa);
-            }
-            return true;
-        }
+        ///// <summary>
+        ///// Insere uma nova pessoa caso não exista
+        ///// </summary>
+        ///// <param name="casos"></param>
+        ///// <param name="pessoa"></param>
+        ///// <returns></returns>
+        //public static bool InserePessoa(List<Caso> casos, Caso pessoa)
+        //{
+        //    bool auxVerificaExistePessoa = VerificaExistePessoa(casos, pessoa);
+        //    if (auxVerificaExistePessoa == false)
+        //    {
+        //        casos.Add(pessoa);
+        //    }
+        //    return true;
+        //}
 
-        /// <summary>
-        /// Verifica se existe determinada pessoa
-        /// </summary>
-        /// <param name="casos"></param>
-        /// <param name="pessoa"></param>
-        /// <returns></returns>
-        public static bool VerificaExistePessoa(List<Caso> casos, Caso pessoa)
-        {
+        ///// <summary>
+        ///// Verifica se existe determinada pessoa
+        ///// </summary>
+        ///// <param name="casos"></param>
+        ///// <param name="pessoa"></param>
+        ///// <returns></returns>
+        //public static bool VerificaExistePessoa(List<Caso> casos, Caso pessoa)
+        //{
 
-            foreach (Caso caso in casos)
-            {
-                if (caso == pessoa)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
+        //    foreach (Caso caso in casos)
+        //    {
+        //        if (caso == pessoa)
+        //        {
+        //            return true;
+        //        }
+        //    }
+        //    return false;
+        //}
 
         /// <summary>
         /// Grava os dados inseridos em ficheiro.

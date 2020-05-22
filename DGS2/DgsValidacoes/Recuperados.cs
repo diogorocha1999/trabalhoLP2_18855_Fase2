@@ -146,40 +146,40 @@ namespace Classes
         }
 
 
-        /// <summary>
-        /// Insere um novo recuperado caso nao exista
-        /// </summary>
-        /// <param name="recuperados"></param>
-        /// <param name="recuperado"></param>
-        /// <returns></returns>
-        public static bool InserePessoa(List<Recuperados> recuperados, Recuperados recuperado)
-        {
-            bool auxVerificaExistePessoa = VerificaExistePessoa(recuperados, recuperado);
-            if (auxVerificaExistePessoa == false)
-            {
-                recuperados.Add(recuperado);
-            }
-            return true;
-        }
+        ///// <summary>
+        ///// Insere um novo recuperado caso nao exista
+        ///// </summary>
+        ///// <param name="recuperados"></param>
+        ///// <param name="recuperado"></param>
+        ///// <returns></returns>
+        //public static bool InserePessoa(List<Recuperados> recuperados, Recuperados recuperado)
+        //{
+        //    bool auxVerificaExistePessoa = VerificaExistePessoa(recuperados, recuperado);
+        //    if (auxVerificaExistePessoa == false)
+        //    {
+        //        recuperados.Add(recuperado);
+        //    }
+        //    return true;
+        //}
 
-        /// <summary>
-        /// Verifica se já existe determinado recuperado
-        /// </summary>
-        /// <param name="casos"></param>
-        /// <param name="pessoa"></param>
-        /// <returns></returns>
-        public static bool VerificaExistePessoa(List<Recuperados> recuperados, Recuperados recuperado)
-        {
+        ///// <summary>
+        ///// Verifica se já existe determinado recuperado
+        ///// </summary>
+        ///// <param name="casos"></param>
+        ///// <param name="pessoa"></param>
+        ///// <returns></returns>
+        //public static bool VerificaExistePessoa(List<Recuperados> recuperados, Recuperados recuperado)
+        //{
 
-            foreach (Recuperados recuperados1 in recuperados)
-            {
-                if (recuperados1 == recuperado)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
+        //    foreach (Recuperados recuperados1 in recuperados)
+        //    {
+        //        if (recuperados1 == recuperado)
+        //        {
+        //            return true;
+        //        }
+        //    }
+        //    return false;
+        //}
 
         /// <summary>
         /// Grava os dados inseridos em ficheiro.

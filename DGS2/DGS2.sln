@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dgs2", "..\Dgs\Dgs2.csproj"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "DgsValidacoes\Classes.csproj", "{E2E69924-CEFE-478B-BA42-A90541683BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regras", "Regras\Regras.csproj", "{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,26 @@ Global
 		{E2E69924-CEFE-478B-BA42-A90541683BB7}.Release|x64.Build.0 = Release|Any CPU
 		{E2E69924-CEFE-478B-BA42-A90541683BB7}.Release|x86.ActiveCfg = Release|Any CPU
 		{E2E69924-CEFE-478B-BA42-A90541683BB7}.Release|x86.Build.0 = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|x64.Build.0 = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Debug|x86.Build.0 = Debug|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|ARM.Build.0 = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|ARM64.Build.0 = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|x64.ActiveCfg = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|x64.Build.0 = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|x86.ActiveCfg = Release|Any CPU
+		{0EFDA9BF-FF45-4866-85F0-CC3533E6F740}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
