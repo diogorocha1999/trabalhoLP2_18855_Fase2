@@ -25,7 +25,7 @@ namespace Classes
     {
 
         #region Atributos
-        string doenteRisco;
+        protected string doenteRisco;
 
         #endregion
 

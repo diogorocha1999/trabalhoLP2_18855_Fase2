@@ -22,7 +22,7 @@ namespace Classes
     public class Recuperados : Pessoa
     {
         #region Atributos
-        string recuperado;
+        protected string recuperado;
         
         #endregion
 

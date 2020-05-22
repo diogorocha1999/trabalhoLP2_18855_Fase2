@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Classes.Program" Collapsed="true">
+  <Class Name="Classes.Program">
     <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
@@ -12,7 +12,7 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Classes.Obitos">
-    <Position X="5.5" Y="4.5" Width="1.5" />
+    <Position X="5.5" Y="5.75" Width="1.5" />
     <NestedTypes>
       <Enum Name="Classes.Obitos.Causas" Collapsed="true">
         <TypeIdentifier />
@@ -21,10 +21,10 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Classes.Pessoa">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="5.5" Y="2" Width="1.5" />
     <TypeIdentifier />
   </Class>
-  <Class Name="Classes.Recuperados" Collapsed="true">
+  <Class Name="Classes.Recuperados">
     <Position X="8.25" Y="1.75" Width="1.5" />
     <TypeIdentifier />
   </Class>

@@ -20,8 +20,8 @@ namespace Classes
     {
         #region Atributos
        protected string regiao;
-        int idades;
-        string genero;
+       protected int idades;
+       protected string genero;
 
 
         #endregion
