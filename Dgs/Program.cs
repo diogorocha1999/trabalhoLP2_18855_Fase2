@@ -48,17 +48,24 @@ namespace Classes
             int contaRegiao = 0;
             while (contaRegiao == 0)
             {
-                Console.WriteLine("Insira a região a consultar: ");
-                string pRegiao = Console.ReadLine();
-                contaRegiao = c.ConsultaRegiao(casos, pRegiao);
+                try
+                {
+                    Console.WriteLine("Insira a região a consultar: ");
+                    string pRegiao = Console.ReadLine();
+                    contaRegiao = c.ConsultaRegiao(casos, pRegiao);
 
-                if (contaRegiao > 0)
-                {
-                    Console.WriteLine("Nº de casos na região " + pRegiao + " : " + contaRegiao);
+                    if (contaRegiao > 0)
+                    {
+                        Console.WriteLine("Nº de casos na região " + pRegiao + " : " + contaRegiao);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Não existe registo para essa região");
+                    }
                 }
-                else
+                catch(FormatException e)
                 {
-                    Console.WriteLine("Não existe registo para essa região");
+                    Console.WriteLine("Erro formato:" + e.Message);
                 }
             }
             #endregion
